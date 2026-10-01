@@ -1,55 +1,122 @@
+<div align="center">
+
 # Abhijit Banerjee
 
-**Associate Professor | Applied AI | Machine Learning | Backend & Automation Systems**
+### Research Engineering · Applied AI · Autonomous Systems · Scientific Software
 
-I work across applied artificial intelligence, machine learning, backend engineering, automation, and research software. My projects span reinforcement learning, computer vision, LLM/RAG systems, Python APIs, scientific computing, and simulation.
+`models → systems → experiments → working software`
 
-## Engineering
+[![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-111827?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)](https://www.linux.org/)
+[![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
 
-**Core stack:** Python · PyTorch · FastAPI · REST APIs · LLM/RAG · Reinforcement Learning · Computer Vision · Automation
+</div>
 
-### Selected Engineering Projects
+---
 
-- **[Google Image Scraper](https://github.com/abanerjee84/google-image-scraper-clean)**  
-  Modular Python image-scraping package with asynchronous processing, CLI support, configurable resolution filtering, reusable library interfaces, tests, and structured logging.
+I work on technically demanding AI and software problems where **learning systems, simulation, automation, APIs, and scientific computing** meet.
 
-- **[Automated Stellarium Sky Map Generator](https://github.com/abanerjee84/STELLARIUM_AUTOMATED_SKYMAP_MAKER)**  
-  Python automation for high-resolution astronomical sky-map generation using Stellarium Remote Control, geographic configuration, seasonal presets, and batch workflows.
+My interests are less about isolated models and more about complete research systems: defining the problem, building the environment, implementing the learning or optimisation loop, instrumenting experiments, and turning the result into software that can actually be run and inspected.
 
-- **[LangChain + Pinecone + FastAPI Streaming](https://github.com/abanerjee84/langchain_pinecone_FastApi_streaming)**  
-  Compact RAG backend combining document retrieval, Pinecone vector search, LangChain, and a FastAPI query interface.
+Current areas of interest include **reinforcement learning, multi-agent systems, computer vision, LLM/RAG pipelines, optimisation, autonomous agents, simulation, and AI-backed backend systems**.
 
-## Research & Applied AI
+## Selected Work
 
-- **[Multi-Agent DDPG for Oil-Spill Area Estimation](https://github.com/abanerjee84/DDPG-OIL-SPILL-AREA-ESTIMATION)**  
-  Multi-agent reinforcement-learning simulation using five UAV agents and DDPG for distributed oil-spill area estimation.
+### 🛰️ [Multi-Agent DDPG for Oil-Spill Area Estimation](https://github.com/abanerjee84/DDPG-OIL-SPILL-AREA-ESTIMATION)
 
-- **[PROPFA CEC Experiments](https://github.com/abanerjee84/PROPFA_CEC_TEST)**  
-  Experimental work in population-based optimisation and computational intelligence.
+Multi-agent reinforcement-learning research using a swarm of simulated UAVs to estimate the spatial extent of an oil spill. The project combines a custom simulation environment, continuous-control DDPG, PyTorch actor-critic models, replay-based learning, and distributed sensing.
 
-- **[Machine Learning with RapidMiner](https://github.com/abanerjee84/machine_learning_in_rapidminer)**  
-  Applied machine-learning experiments and workflows implemented using RapidMiner.
+**Research themes:** multi-agent RL · autonomous UAVs · continuous control · environmental sensing · simulation
 
-## Areas of Work
+---
 
-- Applied machine learning and deep learning
-- LLM-backed applications and retrieval systems
-- Reinforcement learning and multi-agent systems
-- Computer vision
-- Python backend development
-- API integration and automation
-- Scientific and research software
-- Data processing and experimentation
+### 🌌 [Automated Stellarium Sky Map Generator](https://github.com/abanerjee84/STELLARIUM_AUTOMATED_SKYMAP_MAKER)
 
-## Current Technical Focus
+Automation system for producing high-resolution astronomical sky maps by controlling Stellarium programmatically. Supports location-driven generation, seasonal and temporal configuration, batch workflows, remote-control integration, and print-oriented rendering.
 
-I am particularly interested in AI systems that connect models with real software infrastructure: APIs, retrieval pipelines, automation workflows, computer-vision systems, simulation environments, and local or hosted inference.
+**Engineering themes:** scientific automation · external-system control · astronomy · batch pipelines · Python
 
-## Repository Guide
+---
 
-My public repositories fall broadly into two groups:
+### 🧠 [LangChain + Pinecone + FastAPI Streaming](https://github.com/abanerjee84/langchain_pinecone_FastApi_streaming)
 
-- **Engineering** — software systems, backend services, utilities, automation, and applied AI applications.
-- **Research** — reinforcement learning, optimisation, machine learning, simulation, and experimental implementations.
+Compact retrieval-augmented generation backend that connects document ingestion, vector search, retrieval, LLM response generation, and an HTTP API.
 
-Older educational and experimental repositories are retained as part of my development history.
+**Engineering themes:** RAG · vector retrieval · LLM systems · FastAPI · backend architecture
+
+---
+
+### 🕸️ [Google Image Scraper](https://github.com/abanerjee84/google-image-scraper-clean)
+
+Modular asynchronous Python package for image discovery and download, with filtering, CLI and library interfaces, configuration management, structured logging, tests, and reusable components.
+
+**Engineering themes:** asynchronous Python · automation · CLI design · package architecture · testing
+
+## Research & Engineering Stack
+
+```text
+AI / ML
+├── Reinforcement Learning
+├── Multi-Agent Systems
+├── Deep Learning
+├── Computer Vision
+├── LLM / RAG Systems
+└── Optimisation
+
+Engineering
+├── Python
+├── PyTorch
+├── FastAPI
+├── REST APIs
+├── Async I/O
+├── Automation
+└── Scientific Computing
+
+Research Systems
+├── Simulation Environments
+├── Experiment Pipelines
+├── Data Processing
+├── Model Evaluation
+└── Reproducible Workflows
+```
+
+## How I Tend to Work
+
+I prefer projects where the interesting part is not only the algorithm.
+
+A typical problem for me looks more like:
+
+```text
+problem formulation
+        ↓
+simulation / data pipeline
+        ↓
+model or optimisation method
+        ↓
+experiment + instrumentation
+        ↓
+API / automation / usable system
+```
+
+That usually means working across several layers at once: modelling, numerical code, system integration, debugging, experimentation, and software structure.
+
+## Current Interests
+
+- autonomous and multi-agent learning systems;
+- local and hosted LLM inference;
+- retrieval and agentic AI architectures;
+- computer-vision pipelines;
+- simulation-driven research;
+- optimisation and computational intelligence;
+- scientific automation;
+- AI systems that interact with real software infrastructure.
+
+---
+
+<div align="center">
+
+**Research code, engineered systems, and experiments that can be reproduced.**
+
+</div>
